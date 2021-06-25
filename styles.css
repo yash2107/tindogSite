@@ -1,0 +1,167 @@
+body{
+  text-align: center;
+}
+
+/* title-section */
+#title{
+  background-color:#ff4c68;
+  padding: 3% 15% 9%;
+  text-align: left;
+  color:#fff;
+  
+}
+.title-image{
+    transform: rotate(30deg);
+    position: absolute;
+    height:70%;
+    right:25%;
+}
+
+/* heading-section */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+.breed-heading{
+  font-size: 1.5rem;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;}
+
+h3{
+    font-size: 1.5rem;
+}
+
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 4.5rem
+}
+
+.nav-link{
+  font-family: 'Montserrat';
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size:1rem;
+  font-weight: bold;
+}
+.col-lg-6{
+  padding-top: 4rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+
+}
+/* button */
+.download-button{
+  font-family: 'Montserrat';
+  margin: 5% 3% 5% 0;
+}
+
+/* feature section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position:relative;
+}
+
+.feature-box{
+  text-align:center;
+  padding: 7%;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+.features-heading{
+  font-size: 1.5rem;
+}
+
+/* testimonial section */
+#testimonials{
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+
+}
+.carousel-item{
+  padding: 7% 30%;
+}
+
+/* press */
+#press{
+  background-color: #ef8172;
+    padding: 3%;
+}
+.press-image{
+  margin:3px 6px;
+  width:15%;
+}
+
+
+/* pricing-section */
+#pricing{
+  padding:100px;
+
+}
+.price-column{
+  padding:auto 3% 3%;
+}
+
+@media(max-width:900px){
+  .title-image{
+    position:static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* call to action */
+
+#cta{
+  color: #fff;
+  background-color: #ff4c68;
+  line-height: 2;
+  padding: 10% 25%;
+}
+.cta-button{
+  margin: 5% 3%;
+}
+
+#footer{
+  background-color: #fff;
+  padding: 7%;
+}
+.social-button{
+  margin: auto 1%;
+}
